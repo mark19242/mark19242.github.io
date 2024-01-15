@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="icon"
+        href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8812c2d1-9b20-4051-af4f-b7e99240ad1e/definl2-1b45d951-38c8-474c-870e-64c62e67b1d9.jpg/v1/fill/w_1024,h_792,q_75,strp/cartoon___ferrari_308_by_atokarski_definl2-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzkyIiwicGF0aCI6IlwvZlwvODgxMmMyZDEtOWIyMC00MDUxLWFmNGYtYjdlOTkyNDBhZDFlXC9kZWZpbmwyLTFiNDVkOTUxLTM4YzgtNDc0Yy04NzBlLTY0YzYyZTY3YjFkOS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.VCNbdg8maz6tKfJitbcted1hjcdHeb-aRaxufeFXCHU"
+        type="image/icon">
+    <title>Treasure Hunt</title>
+</head>
+
+<body>
+    <h1>Treasure Hunt</h1>
+    <h2>Find Your Ride!</h2>
+    <img class="vroom"
+        src="https://hips.hearstapps.com/hmg-prod/images/2024-ferrari-812-gts-101-64caae4038b21.jpeg?crop=0.526xw:0.701xh;0.137xw,0.299xh&resize=768:*"
+        height="250px" alt="Red Ferrari Car" />
+    <h3>Rules Of The Game</h3>
+    <ul>
+        <li>Click the boxes to reveal what's on the map</li>
+        <li>If you click on the Station Wagon, you lose </li>
+        <li>If you click on the Ferrari, you win</li>
+    </ul>
+    <hr />
+    <table id="banana">
+        <tr>
+            <td id="0" onclick="treasure(0)">Car</td>
+            <td id="1" onclick="treasure(1)">Car</td>
+            <td id="2" onclick="treasure(2)">Car</td>
+        </tr>
+        <tr>
+            <td id="3" onclick="treasure(3)">Car</td>
+            <td id="4" onclick="treasure(4)">Car</td>
+            <td id="5" onclick="treasure(5)">Car</td>
+        </tr>
+        <tr>
+            <td id="6" onclick="treasure(6)">Car</td>
+            <td id="7" onclick="treasure(7)">Car</td>
+            <td id="8" onclick="treasure(8)">Car</td>
+        </tr>
+    </table>
+
+    <button type="button" onclick="location.reload()">Restart Game</button>
+
+    <footer>
+        Jessica Uber & Mark Smith
+        <a href="https://learnacademy.org/" target="_blank">LEARN</a>
+    </footer>
+    <script type="text/javascript" src="treasure-hunt.js"></script>
+</body>
+
+</html>
